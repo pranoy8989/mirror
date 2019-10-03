@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <style>
+            video, canvas {
+                transform: rotate3d(0, 1, 0, 180deg);
+            }
+        </style>
+    </head>
+    <body>
+        <video id="video" width="640" height="480" autoplay></video>
+        <button id="snap">Snap Photo</button>
+        <canvas id="canvas" width="640" height="480"></canvas>
+        <a id="download" download="myImage.jpg" href="" onclick="downloadImg(this);">Download</a>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
